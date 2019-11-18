@@ -51,10 +51,10 @@ int main(){
 	// Membuat pilihan ulang atau tidak
 	cout << "Mau ulang lagi?(Y/n): ";
 	cin >> pilihan;
-	if (pilihan == 'Y' || pilihan == 'y' || pilihan == "ya" || pilihan == "Ya"){
+	if (pilihan == 'Y' || pilihan == 'y'){
 		goto awal;
 	}
-	else{
+	else {
 		goto akhir;
 	}
 	akhir:
